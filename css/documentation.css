@@ -1,0 +1,102 @@
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+}
+
+/* Documentation Main Container */
+
+.doc-container {
+    width: 90%;
+    margin: 2rem auto 0;
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar {
+    flex: 0 0 160px;
+    margin-right: 6rem;
+}
+
+.list-heading {
+    padding: 1rem;
+    border-bottom: 1px solid var(--black-light-shade);
+}
+
+.list-heading a {
+    color: var(--black);
+    font-weight: 700;
+}
+
+.list-sub-heading {
+    margin: 0.5rem;
+    padding-left: 30px;
+}
+
+.list-sub-heading .active {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.list-sub-heading li{
+    font-size: 13px;
+    list-style: none;
+    padding: 0.7rem 0;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.list-sub-heading li a:hover{
+    cursor: pointer;
+    color : var(--primary-color);
+}
+
+.list-sub-heading a{
+    display: flex;
+    align-items: center;
+    color : var(--black-shade);
+    transition: all .3s ease-in-out;
+}
+
+/* Hiding sidebar for smaller screens */
+
+@media screen and (max-width : 800px){
+    .sidebar{
+        display: none;
+    }
+}
+
+/* Main Content */
+.main-content {
+    width: 75%;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.code-snippet{
+    height: max-content;
+    margin-bottom: 3rem;
+}
+
+.installation-code{
+    margin: 0;
+}
+
+.hljs{
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.prev-comp,.next-comp {
+    display: flex;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}

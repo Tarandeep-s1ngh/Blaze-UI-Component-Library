@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* ||| Colors & Font Family */
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --primary-color: #fc7645ec;
+    --primary-color-shade: #fca484ec;
+    --accent-color: #5f48c7;
+    --accent-color-shade: #8475c9;
+    --basic-color: #C6C6C6;
+    --basic-color-shade: #c6c6c6d3;
+    --black: #282828;
+    --black-shade: #353535;
+    --black-light-shade: #d9d9d9;
+    --off-white: #F7F7F7;
+    font-size: 100%;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+/* ||| Typography */
+
+/* Heading */
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* Text */
+.t1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.t2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.t3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.t4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.t5 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+/* Font Weight */
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* ||| Spacing */
+
+/* Padding */
+.p-0 {
+    padding: 0;
+}
+
+.p-xs {
+    padding: 0.5rem;
+}
+
+.p-sm {
+    padding: 1rem;
+}
+
+.p-md {
+    padding: 1.5rem;
+}
+
+.p-lg {
+    padding: 2rem;
+}
+
+.p-xl {
+    padding: 2.5rem;
+}
+
+/* Margin */
+.m-0 {
+    margin: 0;
+}
+
+.m-xs {
+    margin: 0.5rem;
+}
+
+.m-sm {
+    margin: 1rem;
+}
+
+.m-md {
+    margin: 1.5rem;
+}
+
+.m-lg {
+    margin: 2rem;
+}
+
+.m-xl {
+    margin: 2.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+/* ||| Border Radius */
+
+.br-sm {
+    border-radius: 5px;
+}
+
+.br-md {
+    border-radius: 10px;
+}
+
+.br-lg {
+    border-radius: 15px;
+}
+
+.br-full {
+    border-radius: 50%;
+}
+
+
+/* List */
+
+.list-non-bullet {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+.td-none {
+    text-decoration: none;
+}
