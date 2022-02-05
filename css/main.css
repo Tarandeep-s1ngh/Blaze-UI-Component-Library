@@ -1,0 +1,91 @@
+@import url(/css/shared.css);
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Landing Page Main Body */
+
+.main-body {
+    padding: 1rem;
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    color:  var(--black);
+}
+
+.main-body-intro {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.main-body-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    max-width: 580px;
+}
+
+.main-body-sub {
+    font-size: 1.2rem;
+    max-width: 580px;
+}
+
+.main-body-hero svg {
+    width: 66%;
+}
+
+.main-body-btn {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    height: 3.1em;
+    width: 10.6em;
+    margin-top: 1.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    line-height: 2.8em;
+}
+
+.btn-border {
+    border: 2px solid var(--primary-color);
+    background-color: white;
+    color: black;
+}
+
+.main-body-btn:hover {
+    cursor: pointer;
+}
+
+.main-body-hero {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+/* .main-footer {
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.main-footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer i {
+    color: var(--primary-color);
+} */
