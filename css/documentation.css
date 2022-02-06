@@ -90,6 +90,13 @@ body {
     align-items: center;
 }
 
+.comp-showroom-alert {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
 .code-snippet{
     height: max-content;
     margin-bottom: 3rem;
@@ -100,7 +107,7 @@ body {
 }
 
 .component-code {
-    max-height: 10rem;
+    max-height: 15rem;
     overflow: scroll;
 }
 
