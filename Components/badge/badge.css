@@ -1,0 +1,63 @@
+
+.avatar {
+    width: 3rem;
+}
+
+.avatar-round {
+    border-radius: 50%;
+}
+
+.avatar-lg-size {
+    width: 5rem;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge > span {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 3px;
+    right: 3px;
+}
+
+.badge > i {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.badge > div {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    bottom: 22px;
+    right: 35px;
+}
+
+.badge-number {
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+}
+
+/* These colors are used only once, hence no variables */
+
+.badge-online {
+    background-color: rgb(86, 192, 86);
+}
+
+.badge-offline {
+    background-color: rgb(230, 95, 95);
+}
+
+.badge-dnd {
+    background-color: rgb(163, 163, 163);
+}
