@@ -1,0 +1,46 @@
+
+.alert {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* These colors are only used once, hence no variables */
+.alert-success {
+    background-color: #c6f6d5;
+}
+
+.alert-warning {
+    background-color: #fde4b6;
+}
+
+.alert-info {
+    background-color: #c2ddff;
+}
+
+.alert-error {
+    background-color: #fed7d7;
+}
+
+.alert-icon .fas {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.alert-success .fas {
+    color: #49e079;
+}
+
+.alert-warning .fas {
+    color: #faba44;
+}
+
+.alert-info .fas {
+    color: #5ca0f3;
+}
+
+.alert-error .fas {
+    color: #fd7070;
+}
