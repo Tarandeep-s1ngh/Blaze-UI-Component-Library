@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaze: Introduction</title>
+
+    <link href="/css/shared.css" rel="stylesheet">
+    <link href="/css/documentation.css" rel="stylesheet">
+    <link href="/Components/avatar/avatar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+        <!------------ 
+            Navbar
+         ------------>
+        <nav class="main-nav">
+            <a href="/index.html" class="nav-logo td-none">
+                <img src="/assets/blaze-icon.png" width="70px">
+            </a>
+            <a href="/index.html" class="nav-title td-none bold">
+                Blaze UI
+            </a>
+            <ul class="social-links list-non-bullet nav-btn">
+                <li class="list-item-inline"><a class="link" href="/index.html"><i class="fas fa-home"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i class="fab fa-github"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh"
+                        target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <!------------
+                Sidebar
+             ------------>
+            <aside class="sidebar">
+                <!-----------------
+                Get Started Sidebar
+                ------------------->
+                <div class="nested-list">
+                    <div class="list-heading">
+                        <a href="">Get Started</a>
+                    </div>
+                    <ul class="list-sub-heading">
+                        <li>
+                            <a href="">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="/documentation/colors.html">Colors</a>
+                        </li>
+                        <li>
+                            <a href="/documentation/typography.html">Typography</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-----------------
+                Component Sidebar
+                ------------------->
+                <div class="nested-list">
+                    <div class="list-heading">
+                        <a href="">Components</a>
+                    </div>
+                    <ul class="list-sub-heading">
+                        <li>
+                            <a class="active" href="">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="">Alert</a>
+                        </li>
+                        <li>
+                            <a href="">Badge</a>
+                        </li>
+                        <li>
+                            <a href="">Button</a>
+                        </li>
+                        <li>
+                            <a href="">Card</a>
+                        </li>
+                        <li>
+                            <a href="">Image</a>
+                        </li><li>
+                            <a href="">Input</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-----------------
+            Main Content
+            ------------------->
+            <main class="main-content">
+                <!-----------------
+                Avatar Component
+                ------------------->
+                <h2 class="mb-1">Avatar</h2>
+                <p>The Avatar component is used to represent a user, and displays the profile picture, it is found in different shapes and sizes. In order to only use Blaze UI's Avatar component in your project, copy and paste the below code in the head tag of your html document.
+                    <div class="code-snippet">
+                        <pre>
+                            <code class="language-html">
+                                &lt;coming soon&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </p>
+
+                <!-----------------
+                Profile Avatar
+                ------------------->
+                <h3 class="mb-1">Profile Avatar</h3>
+                <p>You need to include class <span class="primary-color">avatar</span> in the container element. Inside container, you can use image tag and give your own source attribute.</p>
+
+                <div class="comp-showroom">
+                    <div class="avatar">
+                        <img src="/assets/avatar-male1.svg">
+                    </div>
+                    <div class="avatar">
+                        <img src="/assets/avatar-fm1.svg">
+                    </div>
+                    <div class="avatar">
+                        <img src="/assets/avatar-fm2.svg">
+                    </div>
+                    <div class="avatar">
+                        <img src="/assets/avatar-male2.svg">
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="avatar"&gt;
+                                &lt;img src="/assets/avatar-male1.svg"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar"&gt;
+                                &lt;img src="/assets/avatar-fm1.svg"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar"&gt;
+                                &lt;img src="/assets/avatar-fm2.svg"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar"&gt;
+                                &lt;img src="/assets/avatar-male2.svg"&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!-----------------
+                Round Avatar
+                ------------------->
+                <h3 class="mb-1">Round Avatar</h3>
+                <p>For round avatars, you can add the class <span class="primary-color">avatar-round</span> to the image tag along with <span class="primary-color">avatar</span> class for container.
+                <br>
+                <span class="primary-color">Note :</span> avatar-round class wouldn't work if the image provided is svg.
+                </p>
+
+                <div class="comp-showroom">
+                    <div class="avatar">
+                        <img class="avatar-round" src="/assets/avatar-male1.png">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-round" src="/assets/avatar-fm1.png">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-round" src="/assets/avatar-fm2.png">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-round" src="/assets/avatar-male2.png">
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="comp-showroom"&gt;
+                                &lt;div class="avatar"&gt;
+                                    &lt;img class="avatar-round" src="/assets/avatar-male1.png"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar"&gt;
+                                    &lt;img class="avatar-round" src="/assets/avatar-fm1.png"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar"&gt;
+                                    &lt;img class="avatar-round" src="/assets/avatar-fm2.png"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar"&gt;
+                                    &lt;img class="avatar-round" src="/assets/avatar-male2.png"&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!-----------------
+                Avatar Sizes
+                ------------------->
+                <h3 class="mb-1">Avatar Sizes</h3>
+                <p>For avatars of different sizes, you can add class according to size <span class="primary-color">avatar-lg-size | avatar-md-size | avatar-sm-size | avatar-xs-size (e.g. class="avatar-lg-size")</span></p>
+
+                <div class="comp-showroom comp-showroom-avatar">
+                    <div class="avatar-lg-size">
+                        <img class="avatar-round" src="/assets/avatar-male1.png">
+                    </div>
+                    <div class="avatar-md-size">
+                        <img class="avatar-round" src="/assets/avatar-fm1.png">
+                    </div>
+                    <div class="avatar-sm-size">
+                        <img class="avatar-round" src="/assets/avatar-fm2.png">
+                    </div>
+                    <div class="avatar-xs-size">
+                        <img class="avatar-round" src="/assets/avatar-male2.png">
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="avatar-lg-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-male1.png"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar-md-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-fm1.png"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar-sm-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-fm2.png"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="avatar-xs-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-male2.png"&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!-----------------
+                Footer
+                ------------------->
+                <footer class="semibold">
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="/documentation/typography.html">Typography</a>
+                    </div>
+
+                    <div class="next-comp">
+                        <a href="">Alert</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+
+            </main>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>
