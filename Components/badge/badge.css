@@ -25,7 +25,7 @@
     right: 3px;
 }
 
-.fas {
+.badge-icon {
     font-size: 2rem;
     color: var(--black);
 }
@@ -37,7 +37,7 @@
     border-radius: 50%;
     border: none;
     bottom: 22px;
-    right: 35px;
+    right: 3px;
     background-color: var(--accent-color);
     display: flex;
     justify-content: center;
