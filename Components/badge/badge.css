@@ -15,31 +15,29 @@
     position: relative;
 }
 
-.badge > span {
+.badge-online,.badge-offline,.badge-dnd {
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 1.25rem;
+    width: 1.25rem;
     border-radius: 50%;
     border: 2px solid white;
     bottom: 3px;
     right: 3px;
 }
 
-.badge > i {
+.fas {
     font-size: 2rem;
     color: var(--black);
 }
 
-.badge > div {
+.badge-number {
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 1.25rem;
+    width: 1.25rem;
     border-radius: 50%;
+    border: none;
     bottom: 22px;
     right: 35px;
-}
-
-.badge-number {
     background-color: var(--accent-color);
     display: flex;
     justify-content: center;
