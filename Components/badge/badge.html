@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge | Blaze UI</title>
+
+    <link href="/css/shared.css" rel="stylesheet">
+    <link href="/css/documentation.css" rel="stylesheet">
+    <link href="/Components/badge/badge.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+        <!------------ 
+            Navbar
+         ------------>
+        <nav class="main-nav">
+            <a href="/index.html" class="nav-logo td-none">
+                <img src="/assets/blaze-icon.png" width="70px">
+            </a>
+            <a href="/index.html" class="nav-title td-none bold">
+                Blaze UI
+            </a>
+            <ul class="social-links list-non-bullet nav-btn">
+                <li class="list-item-inline"><a class="link" href="/index.html"><i class="fas fa-home"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i class="fab fa-github"></i></a></li>
+
+                <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh"
+                        target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="doc-container">
+            <!------------
+                Sidebar
+             ------------>
+            <aside class="sidebar">
+                <!-----------------
+                Get Started Sidebar
+                ------------------->
+                <div class="nested-list">
+                    <div class="list-heading">
+                        <a href="">Get Started</a>
+                    </div>
+                    <ul class="list-sub-heading">
+                        <li>
+                            <a href="/documentation/introduction.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="/documentation/colors.html">Colors</a>
+                        </li>
+                        <li>
+                            <a href="/documentation/typography.html">Typography</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-----------------
+                Component Sidebar
+                ------------------->
+                <div class="nested-list">
+                    <div class="list-heading">
+                        <a href="">Components</a>
+                    </div>
+                    <ul class="list-sub-heading">
+                        <li>
+                            <a href="/Components/avatar/avatar.html">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="/Components/alert/alert.html">Alert</a>
+                        </li>
+                        <li>
+                            <a class="active" href="">Badge</a>
+                        </li>
+                        <li>
+                            <a href="">Button</a>
+                        </li>
+                        <li>
+                            <a href="">Card</a>
+                        </li>
+                        <li>
+                            <a href="">Image</a>
+                        </li><li>
+                            <a href="">Input</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-----------------
+            Main Content
+            ------------------->
+            <main class="main-content">
+                <!-----------------
+                Badge Component
+                ------------------->
+                <h2 class="mb-1">Badge</h2>
+                <p>Badge normally appears in proximity to notifications or user avatars, typically displaying unread messages count or status information. In order to only use the Badge Component from Blaze UI in your project, copy and paste the below code in the head tag of your html document.
+                    <div class="code-snippet">
+                        <pre>
+                            <code class="language-html">
+                                &lt;coming soon&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </p>
+
+                <!-----------------
+                Badge on Avatars
+                ------------------->
+                <h3 class="mb-1">Badge on Avatars</h3>
+                <p>Badges indicate the status of the user when used on avatars. Example-> Green: online | Red: offline. For using badge on avatars, you can add the class name <span class="primary-color">badge</span> to the parent tag along with the variation class on child, for instance: <span class="primary-color">badge-online | badge-offline | badge-dnd</span>.
+                </p>
+
+                <div class="comp-showroom">
+                    <div class="badge avatar avatar-lg-size">
+                        <img class="avatar-round" src="/assets/avatar-male1.png">
+                        <span class="badge-online"></span>
+                    </div>
+                    <div class="badge avatar avatar-lg-size">
+                        <img class="avatar-round" src="/assets/avatar-fm1.png">
+                        <span class="badge-offline"></span>
+                    </div>
+                    <div class=" badge avatar avatar-lg-size">
+                        <img class="avatar-round" src="/assets/avatar-fm2.png">
+                        <span class="badge-dnd"></span>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="badge avatar avatar-lg-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-male1.png"&gt;
+                                &lt;span class="badge-online"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="badge avatar avatar-lg-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-fm1.png"&gt;
+                                &lt;span class="badge-offline"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class=" badge avatar avatar-lg-size"&gt;
+                                &lt;img class="avatar-round" src="/assets/avatar-fm2.png"&gt;
+                                &lt;span class="badge-dnd"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!-----------------
+                Badge on Icons
+                ------------------->
+                <h3 class="mb-1">Badge on Icons</h3>
+                <p>Badges indicate the notification count on a particular item. For using badge on icons, you can add the class name <span class="primary-color">badge</span> to the parent tag along with the <span class="primary-color">badge-number</span> class name on child.
+                </p>
+
+                <div class="comp-showroom">
+                    <div class="badge avatar">
+                        <i class="badge-icon fas fa-shopping-cart"></i>
+                        <div class="badge-number badge-offline semibold">4</div>
+                    </div>
+                    <div class="badge avatar">
+                        <i class="badge-icon fas fa-heart"></i>
+                        <div class="badge-number semibold">16</div>
+                    </div>
+                    <div class=" badge avatar">
+                        <i class="badge-icon fas fa-envelope"></i>
+                        <div class="badge-number badge-online semibold">10</div>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="badge avatar avatar-lg-size"&gt;
+                                &lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt;
+                                &lt;div class="badge-number badge-offline semibold"&gt;4&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="badge avatar avatar-lg-size"&gt;
+                                &lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+                                &lt;div class="badge-number semibold"&gt;16&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=" badge avatar avatar-lg-size"&gt;
+                                &lt;i class="fas fa-envelope"&gt;&lt;/i&gt;
+                                &lt;div class="badge-number badge-online semibold"&gt;10&lt;/div&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <!-----------------
+                Footer
+                ------------------->
+                <footer class="semibold">
+                    <div class="prev-comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                        <a href="/Components/alert/alert.html">Alert</a>
+                    </div>
+
+                    <div class="next-comp">
+                        <a href="">Button</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                    </div>
+                </footer>
+
+            </main>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>
