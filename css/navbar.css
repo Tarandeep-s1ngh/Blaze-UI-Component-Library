@@ -15,5 +15,26 @@
 
 .nav-btn {
     margin-left: auto;
-    padding: 0 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas,.fab {
+    color: var(--primary-color);
+    font-size: 1.05rem;
+}
+
+.fa-linkedin {
+    font-size: 1.2rem;
+}
+
+.fa-github {
+    font-size: 1.2rem;
+}
+
+.fa-twitter {
+    font-size: 1.18rem;
 }
