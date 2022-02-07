@@ -51,7 +51,7 @@ h5 {
 }
 
 /* Text */
-.t1 {
+.t3 {
     font-size: 3rem;
     line-height: 4rem;
 }
@@ -61,17 +61,22 @@ h5 {
     line-height: 2.5rem;
 }
 
-.t3 {
+.t1p5 {
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-.t4 {
+.t1p2 {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.t1 {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.t5 {
+.t0p5 {
     font-size: 0.5rem;
     line-height: 1rem;
 }
