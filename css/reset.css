@@ -19,6 +19,26 @@ dd {
     margin: 0;
 }
 
+/* Global Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--basic-color);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--black-shade);
+    border: 0.15rem solid var(--basic-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}
+
 /* Remove list styles on ul, ol elements */
 ul,
 ol {
