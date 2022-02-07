@@ -1,0 +1,45 @@
+
+.input-primary {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-primary textarea,input {
+    border-radius: 5px;
+    border: 1px solid var(--black);
+    padding: 0.3rem;
+}
+
+.input-primary textarea:hover {
+    background-color: var(--off-white);
+}
+
+.input-primary input:hover {
+    background-color: var(--off-white);
+}
+
+.input-validation {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-light-shade);
+    border-radius: 5px;
+    padding: 1rem 2rem 0.5rem;
+}
+
+.input-validation input {
+    border: 1px solid var(--black);
+    margin-bottom: 1rem;
+}
+
+.input-validation input:hover {
+    background-color: var(--off-white);
+}
+
+.input-validation .error-psw {
+    border: 2px solid red;
+    margin-bottom: 0;
+}
+
+.error-msg {
+    color: red;
+}

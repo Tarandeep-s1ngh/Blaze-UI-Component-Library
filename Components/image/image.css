@@ -1,0 +1,15 @@
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-round {
+    max-width: 18.5rem;
+    height: 18.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
