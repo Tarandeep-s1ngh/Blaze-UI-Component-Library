@@ -9,19 +9,19 @@
 
 /* These colors are only used once, hence no variables */
 .alert-success {
-    background-color: #c6f6d5;
+    background-color: var(--light-green);
 }
 
 .alert-warning {
-    background-color: #fde4b6;
+    background-color: var(--light-yellow);
 }
 
 .alert-info {
-    background-color: #c2ddff;
+    background-color: var(--light-blue);
 }
 
 .alert-error {
-    background-color: #fed7d7;
+    background-color: var(--light-red);
 }
 
 .alert-icon .fas {
