@@ -7,8 +7,8 @@
 }
 
 .img-round {
-    max-width: 18.5rem;
-    height: 18.5rem;
+    max-width: 99%;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
