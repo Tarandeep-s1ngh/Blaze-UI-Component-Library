@@ -8,132 +8,138 @@
     <title>Alert | Blaze UI</title>
 
     <link href="/css/shared.css" rel="stylesheet">
-    <link href="/css/documentation.css" rel="stylesheet">
     <link href="/Components/alert/alert.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
 </head>
 
 <body>
-        <!------------ 
+    <!------------ 
             Navbar
          ------------>
-        <nav class="main-nav">
-            <a href="/index.html" class="nav-logo td-none">
-                <img src="/assets/blaze-icon.png" width="70px">
-            </a>
-            <a href="/index.html" class="nav-title td-none bold">
-                Blaze UI
-            </a>
-            <ul class="social-links list-non-bullet nav-btn">
-                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
-                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    <nav class="main-nav">
+        <a href="/index.html" class="nav-logo td-none">
+            <img src="/assets/blaze-icon.png" width="70px">
+        </a>
+        <a href="/index.html" class="nav-title td-none bold">
+            Blaze UI
+        </a>
+        <ul class="social-links list-non-bullet nav-btn">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
 
-                <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i
+                        class="fab fa-github"></i></a></li>
 
-                <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh"
-                        target="_blank"><i class="fab fa-twitter"></i></a></li>
-            </ul>
-        </nav>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank"><i
+                        class="fab fa-twitter"></i></a></li>
+        </ul>
+    </nav>
 
-        <div class="doc-container">
-            <!------------
+    <div class="doc-container">
+        <!------------
                 Sidebar
              ------------>
-            <aside class="sidebar">
-                <!-----------------
+        <aside class="sidebar">
+            <!-----------------
                 Get Started Sidebar
                 ------------------->
-                <div class="nested-list">
-                    <div class="list-heading">
-                        <a href="/documentation/introduction.html">Get Started</a>
-                    </div>
-                    <ul class="list-sub-heading">
-                        <li>
-                            <a href="/documentation/introduction.html">Introduction</a>
-                        </li>
-                        <li>
-                            <a href="/documentation/colors.html">Colors</a>
-                        </li>
-                        <li>
-                            <a href="/documentation/typography.html">Typography</a>
-                        </li>
-                    </ul>
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="/documentation/introduction.html">Get Started</a>
                 </div>
-
-                <!-----------------
-                Component Sidebar
-                ------------------->
-                <div class="nested-list">
-                    <div class="list-heading">
-                        <a href="">Components</a>
-                    </div>
-                    <ul class="list-sub-heading">
-                        <li>
-                            <a href="/Components/avatar/avatar.html">Avatar</a>
-                        </li>
-                        <li>
-                            <a class="active" href="">Alert</a>
-                        </li>
-                        <li>
-                            <a href="/Components/badge/badge.html">Badge</a>
-                        </li>
-                        <li>
-                            <a href="/Components/button/button.html">Button</a>
-                        </li>
-                        <li>
-                            <a href="">Card</a>
-                        </li>
-                        <li>
-                            <a href="/Components/image/image.html">Image</a>
-                        </li><li>
-                            <a href="/Components/input/input.html">Input</a>
-                        </li>
-                    </ul>
-                </div>
-            </aside>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/documentation/introduction.html">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/typography.html">Typography</a>
+                    </li>
+                </ul>
+            </div>
 
             <!-----------------
+                Component Sidebar
+                ------------------->
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="">Components</a>
+                </div>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/Components/avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="active" href="">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/Components/badge/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a href="/Components/button/button.html">Button</a>
+                    </li>
+                    <li>
+                        <a href="/Components/card/card.html">Card</a>
+                    </li>
+                    <li>
+                        <a href="/Components/image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a href="/Components/input/input.html">Input</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-----------------
             Main Content
             ------------------->
-            <main class="main-content">
-                <!-----------------
+        <main class="main-content">
+            <!-----------------
                 Alert Component
                 ------------------->
-                <h2 class="mb-1">Alert</h2>
-                <p>Alerts are used to communicate important information by attracting user's attention without interrupting the user's flow. In order to only use the Alert Component from <span class="primary-color">Blaze UI</span> in your project, copy and paste the below code in the head tag of your html document.
-                    <div class="code-snippet">
-                        <pre>
+            <h2 class="mb-1">Alert</h2>
+            <p>Alerts are used to communicate important information by attracting user's attention without interrupting
+                the user's flow. In order to only use the Alert Component from <span class="primary-color">Blaze
+                    UI</span> in your project, copy and paste the below code in the head tag of your html document.
+                <div class="code-snippet">
+                    <pre>
                             <code class="language-html">
                 &lt;link rel="stylesheet" href="https://blaze-ui.netlify.app/components/alert/alert.css" /&gt;
                             </code>
                         </pre>
-                    </div>
-                </p>
+                </div>
+            </p>
 
-                <!-----------------
+            <!-----------------
                 Simple Alert
                 ------------------->
-                <h3 class="mb-1">Simple Alert</h3>
-                <p>To use this alert you just need to add class name <span class="primary-color">alert</span> followed by varient name: <span class="primary-color">alert-success, alert-warning, alert-info, alert-error</span> (eg. class="alert alert-success").
+            <h3 class="mb-1">Simple Alert</h3>
+            <p>To use this alert you just need to add class name <span class="primary-color">alert</span> followed by
+                varient name: <span class="primary-color">alert-success, alert-warning, alert-info, alert-error</span>
+                (eg. class="alert alert-success").
                 You can copy the html part from below code snippet.</p>
 
-                <div class="comp-showroom comp-showroom-alert">
-                    <div class="alert alert-success">
-                        Success! Profile has been updated successfully.
-                    </div>
-                    <div class="alert alert-warning">
-                        Warning! Low disk storage, clear some space.
-                    </div>
-                    <div class="alert alert-info">
-                        Update! An update is available to install.
-                    </div>
-                    <div class="alert alert-error">
-                        Error! We encountered an error while processing your request.
-                    </div>
+            <div class="comp-showroom comp-showroom-alert">
+                <div class="alert alert-success">
+                    Success! Profile has been updated successfully.
                 </div>
+                <div class="alert alert-warning">
+                    Warning! Low disk storage, clear some space.
+                </div>
+                <div class="alert alert-info">
+                    Update! An update is available to install.
+                </div>
+                <div class="alert alert-error">
+                    Error! We encountered an error while processing your request.
+                </div>
+            </div>
 
-                <div class="code-snippet">
-                    <pre>
+            <div class="code-snippet">
+                <pre>
                         <code class="language-html component-code">
                             &lt;div class="alert alert-success"&gt;
                                 Success! Profile has been updated successfully.
@@ -149,33 +155,39 @@
                             &lt;/div&gt;
                         </code>
                     </pre>
-                </div>
+            </div>
 
-                <!-----------------
+            <!-----------------
                 Icon Alert
                 ------------------->
-                <h3 class="mb-1">Icon Alert</h3>
-                <p>To use the alert with an icon you just need to add class name <span class="primary-color">alert-icon</span> along with the <span class="primary-color">alert</span> class, followed by varient name: <span class="primary-color">alert-success, alert-warning, alert-info, alert-error</span> (eg. class="alert alert-icon alert-success").<br><br>
-                If you want to use the same icon as below, you will need to add this highlighted link to the head tag of your html document: <span class="primary-color">@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');</span> (Credits: font-awesome). Alternatively, you can use any other icons of your choice also.<br><br>
+            <h3 class="mb-1">Icon Alert</h3>
+            <p>To use the alert with an icon you just need to add class name <span
+                    class="primary-color">alert-icon</span> along with the <span class="primary-color">alert</span>
+                class, followed by varient name: <span class="primary-color">alert-success, alert-warning, alert-info,
+                    alert-error</span> (eg. class="alert alert-icon alert-success").<br><br>
+                If you want to use the same icon as below, you will need to add this highlighted link to the head tag of
+                your html document: <span class="primary-color">@import
+                    url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');</span>
+                (Credits: font-awesome). Alternatively, you can use any other icons of your choice also.<br><br>
                 You can copy the html part from below code snippet.</p>
 
-                <div class="comp-showroom comp-showroom-alert">
-                    <div class="alert alert-icon alert-success">
-                        <i class="fas fa-check-circle"></i> Profile has been updated successfully!
-                    </div>
-                    <div class="alert alert-icon alert-warning">
-                        <i class="fas fa-exclamation-circle"></i> Low disk storage, clear some space!
-                    </div>
-                    <div class="alert alert-icon alert-info">
-                        <i class="fas fa-question-circle"></i> An update is available to install!
-                    </div>
-                    <div class="alert alert-icon alert-error">
-                        <i class="fas fa-times-circle"></i> We encountered an error while processing your request!
-                    </div>
+            <div class="comp-showroom comp-showroom-alert">
+                <div class="alert alert-icon alert-success">
+                    <i class="fas fa-check-circle"></i> Profile has been updated successfully!
                 </div>
+                <div class="alert alert-icon alert-warning">
+                    <i class="fas fa-exclamation-circle"></i> Low disk storage, clear some space!
+                </div>
+                <div class="alert alert-icon alert-info">
+                    <i class="fas fa-question-circle"></i> An update is available to install!
+                </div>
+                <div class="alert alert-icon alert-error">
+                    <i class="fas fa-times-circle"></i> We encountered an error while processing your request!
+                </div>
+            </div>
 
-                <div class="code-snippet">
-                    <pre>
+            <div class="code-snippet">
+                <pre>
                         <code class="language-html component-code">
                             &lt;div class="alert alert-icon alert-success"&gt;
                                 &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt; Profile has been updated successfully!
@@ -191,27 +203,37 @@
                             &lt;/div&gt;
                         </code>
                     </pre>
-                </div>
+            </div>
 
-                <!-----------------
+            <!-----------------
                 Footer
                 ------------------->
-                <footer class="semibold">
-                    <div class="prev-comp">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
-                        <a href="/Components/avatar/avatar.html">Avatar</a>
-                    </div>
+            <footer class="semibold">
+                <div class="prev-comp">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+                    </svg>
+                    <a href="/Components/avatar/avatar.html">Avatar</a>
+                </div>
 
-                    <div class="next-comp">
-                        <a href="/Components/badge/badge.html">Badge</a>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
-                    </div>
-                </footer>
+                <div class="next-comp">
+                    <a href="/Components/badge/badge.html">Badge</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+                    </svg>
+                </div>
+            </footer>
 
-            </main>
-        </div>
+        </main>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
