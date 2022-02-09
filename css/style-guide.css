@@ -19,11 +19,16 @@
     --light-yellow: #fde4b6;
     --light-blue: #c2ddff;
     --light-red: #fed7d7;
+    --gray: #9a9a9a;
     font-size: 100%;
 }
 
 .primary-color {
     color: var(--primary-color);
+}
+
+.gray-color {
+    color: var(--gray);
 }
 
 /* ||| Typography */
@@ -80,9 +85,18 @@ h5 {
     line-height: 1.5rem;
 }
 
+.t0p75 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
 .t0p5 {
     font-size: 0.5rem;
     line-height: 1rem;
+}
+
+.t-strike {
+    text-decoration: line-through;
 }
 
 /* Font Weight */
@@ -92,6 +106,10 @@ h5 {
 
 .regular {
     font-weight: 400;
+}
+
+.lightbold {
+    font-weight: 500;
 }
 
 .semibold {
