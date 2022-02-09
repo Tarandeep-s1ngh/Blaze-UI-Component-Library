@@ -25,9 +25,8 @@
     padding: 0 1rem;
 }
 
-.card-header-txt h3{
+.card-title{
     margin-top: 0.5rem;
-    margin-bottom: 0;
 }
 
 .card-btn {
@@ -108,7 +107,7 @@
     cursor: pointer;
 }
 
-.card-horizontal .img-in-horizontal img{
+.img-in-horizontal *{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -143,7 +142,7 @@
     .card-horizontal .card-header {
         min-width: 0;
     }
-    .card-horizontal .img-in-horizontal img{
+    .img-in-horizontal *{
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
