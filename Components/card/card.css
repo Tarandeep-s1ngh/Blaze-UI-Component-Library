@@ -29,6 +29,10 @@
     margin-top: 0.5rem;
 }
 
+.discount {
+    letter-spacing: -0.7px;
+}
+
 .card-btn {
     margin: 0.5rem;
 }
