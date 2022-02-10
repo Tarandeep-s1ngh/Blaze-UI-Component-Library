@@ -22,19 +22,19 @@
     justify-content: space-between;
 }
 
-.fas,.fab {
+.nav-btn .link {
     color: var(--primary-color);
     font-size: 1.05rem;
 }
 
-.fa-linkedin {
+.nav-btn .link .fa-linkedin {
     font-size: 1.2rem;
 }
 
-.fa-github {
+.nav-btn .link .fa-github {
     font-size: 1.2rem;
 }
 
-.fa-twitter {
+.nav-btn .link .fa-twitter {
     font-size: 1.18rem;
 }

@@ -1,0 +1,53 @@
+.nav-bar {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    box-shadow: 0 0 5px 5px var(--black-light-shade);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-txt {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.icon-in-nav, .nav-logo {
+    background-color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 2ex;
+}
+
+.icon-in-nav:hover {
+    cursor: pointer;
+    background-color: var(--off-white);
+    border-radius: 50%;
+}
+
+.nav-hamburger {
+    display: none;
+}
+
+
+/*=============================================
+=     Hamburger for smaller devices            =
+=============================================*/
+
+
+@media screen and (max-width : 768px) {
+    .icon-in-nav {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .nav-logo {
+        display: none;
+    }
+}
