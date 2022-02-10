@@ -1,0 +1,52 @@
+
+/*=============================================
+=            Default List            =
+=============================================*/
+
+.list {
+    background-color: white;
+    padding: 1rem 0 0;
+    width: 250px;
+}
+
+.list-title {
+    padding: 0 0 1rem 1rem;
+    border-bottom: 1px solid var(--black-light-shade);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.list li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+
+.list li:hover{
+    cursor: pointer;
+    color : var(--primary-color);
+}
+
+
+/*=============================================
+=            Stacked List            =
+=============================================*/
+
+.stacked-item {
+    display: flex;
+    background-color: var(--black-shade);
+    color: white;
+    padding: 1rem;
+    margin: 0.1rem 0;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.stacked-item:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.stacked-txt:hover {
+    color: var(--primary-color);
+}
