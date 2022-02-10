@@ -16,6 +16,8 @@ body {
 /* Sidebar */
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 160px;
     margin-right: 6rem;
 }
@@ -105,6 +107,10 @@ body {
 
 .comp-showroom-image {
     padding: 1rem;
+}
+
+.comp-showroom-text {
+    flex-direction: column;
 }
 
 .code-snippet{
