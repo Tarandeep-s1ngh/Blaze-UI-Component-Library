@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid | Blaze UI</title>
+
+    <link href="/css/shared.css" rel="stylesheet">
+    <link href="/Components/grid/grid.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+    <!------------ 
+        Navbar
+    ------------>
+    <nav class="main-nav">
+        <a href="/index.html" class="nav-logo td-none">
+            <img src="/assets/blaze-icon.png" width="70px">
+        </a>
+        <a href="/index.html" class="nav-title td-none bold">
+            Blaze UI
+        </a>
+        <ul class="social-links list-non-bullet nav-btn">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+            <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i
+                        class="fab fa-github"></i></a></li>
+
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank"><i
+                        class="fab fa-twitter"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="doc-container">
+        <!------------
+                Sidebar
+             ------------>
+        <aside class="sidebar">
+            <!-----------------
+                Get Started Sidebar
+                ------------------->
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="/documentation/introduction.html">Get Started</a>
+                </div>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/documentation/introduction.html">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/typography.html">Typography</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-----------------
+                Component Sidebar
+                ------------------->
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="">Components</a>
+                </div>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/Components/avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="/Components/alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/Components/badge/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a href="/Components/button/button.html">Button</a>
+                    </li>
+                    <li>
+                        <a href="/Components/card/card.html">Card</a>
+                    </li>
+                    <li>
+                        <a href="/Components/image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a href="/Components/input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a href="/Components/text-utilities/text-utilities.html">Text Utilities</a>
+                    </li>
+                    <li>
+                        <a href="/Components/list/list.html">List</a>
+                    </li>
+                    <li>
+                        <a href="/Components/navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="/Components/modal/modal.html">Modal</a>
+                    </li>
+                    <li>
+                        <a href="/Components/rating/rating.html">Rating</a>
+                    </li>
+                    <li>
+                        <a href="/Components/toast/toast.html">Toast</a>
+                    </li>
+                    <li>
+                        <a class="active" href="">Simplified Grid</a>
+                    </li>
+                    <li>
+                        <a href="/Components/slider/slider.html">Slider</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-----------------
+            Main Content
+            ------------------->
+        <main class="main-content">
+            <!-----------------
+               Grid Component
+            ------------------->
+            <h2 class="mb-1">Grid</h2>
+            <p>Grid is a versatile layout to make different sections on a webpage. For now, there are three grid layouts available: two, three & four column layouts. In order to only use the Grid Component from <span class="primary-color">Blaze UI</span> in your project, copy and paste the below code in the head tag of your html document.
+                <div class="code-snippet">
+                    <pre>
+                            <code class="language-html">
+            &lt;link rel="stylesheet" href="https://blaze-ui.netlify.app/Components/grid/grid.css" /&gt;
+                            </code>
+                        </pre>
+                </div>
+            </p>
+
+            <!-----------------
+               Simplified Grid
+            ------------------->
+            <h3 class="mb-1">Simplified Grid</h3>
+            <p>To use the Simplified Grid you just need to add class name <span class="primary-color">grid</span> to the container or parent element, followed by varient name: <span class="primary-color">two-col, three-col, or four-col</span> (eg. class="grid three-col"). You can copy the html part from below code snippet and remove all other classes given for showcasing the usage.</p>
+
+            <div class="comp-showroom-grid">
+                <div class="grid two-col bg-ligth-green-color">
+                    <div class="p-xs border-black">Child 1</div>
+                    <div class="p-xs border-black">Child 2</div>
+                </div>
+                <div class="grid three-col bg-ligth-red-color">
+                    <div class="p-xs border-black">Child 1</div>
+                    <div class="p-xs border-black">Child 2</div>
+                    <div class="p-xs border-black">Child 3</div>
+                </div>
+                <div class="grid four-col bg-ligth-blue-color">
+                    <div class="p-xs border-black">Child 1</div>
+                    <div class="p-xs border-black">Child 2</div>
+                    <div class="p-xs border-black">Child 3</div>
+                    <div class="p-xs border-black">Child 4</div>
+                </div>
+            </div>
+
+            <div class="code-snippet">
+                <pre>
+                        <code class="language-html component-code">
+                            &lt;div class="grid two-col bg-ligth-green-color"&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 1&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 2&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="grid three-col bg-ligth-red-color"&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 1&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 2&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 3&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="grid four-col bg-ligth-blue-color"&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 1&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 2&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 3&lt;/div&gt;
+                                &lt;div class="p-xs border-black"&gt;Child 4&lt;/div&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+            </div>
+
+            <!-----------------
+                Footer
+                ------------------->
+            <footer class="semibold">
+                <div class="prev-comp">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+                    </svg>
+                    <a href="/Components/toast/toast.html">Toast</a>
+                </div>
+
+                <div class="next-comp">
+                    <a href="/Components/slider/slider.html">Slider</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+                    </svg>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
