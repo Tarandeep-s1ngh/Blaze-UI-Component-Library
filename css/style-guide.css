@@ -32,6 +32,22 @@
     color: var(--gray);
 }
 
+.bg-ligth-green-color {
+    background-color: var(--light-green);
+}
+
+.bg-ligth-red-color {
+    background-color: var(--light-red);
+}
+
+.bg-ligth-blue-color {
+    background-color: var(--light-blue);
+}
+
+.border-black {
+    border: 1px solid var(--black);
+}
+
 /* ||| Typography */
 
 /* Heading */

@@ -113,6 +113,15 @@ body {
     flex-direction: column;
 }
 
+.comp-showroom-grid {
+    /* These two colors are not being used anywhere else, hence no variable */
+    background-color: #f0f0f0;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
 .code-snippet{
     height: max-content;
     margin-bottom: 3rem;

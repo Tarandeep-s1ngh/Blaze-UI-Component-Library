@@ -1,0 +1,25 @@
+
+.grid {
+    display: grid;
+    text-align: center;
+}
+
+/* Two Column Grid */
+
+.two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Three Column Grid */
+
+.three-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* Four Column Grid */
+
+.four-col {
+    grid-template-columns: repeat(4, 1fr);
+}
