@@ -1,0 +1,9 @@
+
+.slider-container {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--black-light-shade);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

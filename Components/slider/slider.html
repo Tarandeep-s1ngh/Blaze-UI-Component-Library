@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider | Blaze UI</title>
+
+    <link href="/css/shared.css" rel="stylesheet">
+    <link href="/Components/slider/slider.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+    <!------------ 
+        Navbar
+    ------------>
+    <nav class="main-nav">
+        <a href="/index.html" class="nav-logo td-none">
+            <img src="/assets/blaze-icon.png" width="70px">
+        </a>
+        <a href="/index.html" class="nav-title td-none bold">
+            Blaze UI
+        </a>
+        <ul class="social-links list-non-bullet nav-btn">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+            <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh" target="_blank"><i
+                        class="fab fa-github"></i></a></li>
+
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank"><i
+                        class="fab fa-twitter"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="doc-container">
+        <!------------
+                Sidebar
+             ------------>
+        <aside class="sidebar">
+            <!-----------------
+                Get Started Sidebar
+                ------------------->
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="/documentation/introduction.html">Get Started</a>
+                </div>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/documentation/introduction.html">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/colors.html">Colors</a>
+                    </li>
+                    <li>
+                        <a href="/documentation/typography.html">Typography</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-----------------
+                Component Sidebar
+                ------------------->
+            <div class="nested-list">
+                <div class="list-heading">
+                    <a href="">Components</a>
+                </div>
+                <ul class="list-sub-heading">
+                    <li>
+                        <a href="/Components/avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="/Components/alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/Components/badge/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a href="/Components/button/button.html">Button</a>
+                    </li>
+                    <li>
+                        <a href="/Components/card/card.html">Card</a>
+                    </li>
+                    <li>
+                        <a href="/Components/image/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a href="/Components/input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a href="/Components/text-utilities/text-utilities.html">Text Utilities</a>
+                    </li>
+                    <li>
+                        <a href="/Components/list/list.html">List</a>
+                    </li>
+                    <li>
+                        <a href="/Components/navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="/Components/modal/modal.html">Modal</a>
+                    </li>
+                    <li>
+                        <a href="/Components/rating/rating.html">Rating</a>
+                    </li>
+                    <li>
+                        <a href="/Components/toast/toast.html">Toast</a>
+                    </li>
+                    <li>
+                        <a href="/Components/grid/grid.html">Simplified Grid</a>
+                    </li>
+                    <li>
+                        <a class="active" href="/Components/slider/slider.html">Slider</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-----------------
+            Main Content
+            ------------------->
+        <main class="main-content">
+            <!-----------------
+                Slider Component
+                ------------------->
+            <h2 class="mb-1">Slider</h2>
+            <p>Slider component is used to allow users to make selections from a range of values. It is ideal for adjusting settings such as volume, brightness, or price on shopping sites. In order to only use the Slider Component from <span class="primary-color">Blaze UI</span> in your project, copy and paste the below code in the head tag of your html document.
+                <div class="code-snippet">
+                    <pre>
+                            <code class="language-html">
+            &lt;link rel="stylesheet" href="https://blaze-ui.netlify.app/Components/slider/slider.css" /&gt;
+                            </code>
+                        </pre>
+                </div>
+            </p>
+
+            <div class="comp-showroom">
+                <div class="slider-container">
+                    <label for="range" class="lightbold"> Simple Slider: </label>
+                    <input class="slider" type="range" name="range" id="range" min="0" max="100" value="30"/>
+                </div>
+            </div>
+
+            <div class="code-snippet">
+                <pre>
+                        <code class="language-html component-code">
+                    &lt;div class="slider-container"&gt;
+                        &lt;label for="range" class="lightbold"&gt; Simple Slider: &lt;/label&gt;
+                        &lt;input class="slider" type="range" name="range" id="range" min="0" max="100" value="30"/&gt;
+                    &lt;/div&gt;
+                        </code>
+                    </pre>
+            </div>
+
+            <!-----------------
+                Footer
+                ------------------->
+            <footer class="semibold">
+                <div class="prev-comp">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+                    </svg>
+                    <a href="/Components/grid/grid.html">Simplified Grid</a>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
