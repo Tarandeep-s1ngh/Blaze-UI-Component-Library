@@ -6,7 +6,7 @@
 .list {
     background-color: white;
     padding: 1rem 0 0;
-    width: 250px;
+    width: 15.6rem;
 }
 
 .list-title {
@@ -24,6 +24,23 @@
 .list li:hover{
     cursor: pointer;
     color : var(--primary-color);
+}
+
+
+/*=============================================
+=            Spaced List            =
+=============================================*/
+
+.spaced-list {
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.spaced-list li:hover {
+    cursor: pointer;
+    color: var(--primary-color);
 }
 
 

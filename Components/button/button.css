@@ -36,8 +36,9 @@
     background-color: var(--accent-color);
 }
 
+/* This color is used only once in this whole project, hence no variable */
 .btn-danger {
-    background-color: #fd2828;
+    background-color: #fd2828; 
 }
 
 .btn-icon {

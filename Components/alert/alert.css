@@ -1,6 +1,6 @@
 
 .alert {
-    width: 90%;
+    max-width: 40ch;
     padding: 1rem;
     border-radius: 5px;
     display: flex;
