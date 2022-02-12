@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blaze: Introduction</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 
     <link href="/css/shared.css" rel="stylesheet">
-    <link href="/css/documentation.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+    <script src="https://kit.fontawesome.com/21124ac8ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -147,6 +148,23 @@
                 <br><br>
                 In order to override Blaze's base classes, users can add their own class to the pre-existing classes,
                 and style them seperately, as shown below.</p>
+
+            <div class="code-snippet installation-code">
+                <pre>
+                        <code class="language-html">
+                    &lt;!-- Here "btn-primary" is Blaze UI's class and "user-style" is the class added by user --&gt;
+
+                    &lt;button class="btn-primary user-style"&gt;Customized Button&lt;/button&gt;
+                    &lt;!-- Custom class styling --&gt;
+                    &lt;style&gt;
+                        .user-style{
+                            color : white;
+                            background-color : slateblue; 
+                        }
+                    &lt;/style&gt;
+                        </code>
+                    </pre>
+            </div>
 
             <!-----------------
                 Footer

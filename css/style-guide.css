@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 
 /* ||| Colors & Font Family */
@@ -16,6 +15,10 @@
     --black-shade: #353535;
     --black-light-shade: #d9d9d9;
     --off-white: #F7F7F7;
+    --success: #62ce84;
+    --warning: #fdcf79;
+    --info: #c2ddff;
+    --danger: #fd5f5f;
     --light-green: #c6f6d5;
     --light-yellow: #fde4b6;
     --light-blue: #c2ddff;
@@ -23,6 +26,9 @@
     --gray: #9a9a9a;
     font-size: 100%;
 }
+
+
+/* Text Color */
 
 .primary-color {
     color: var(--primary-color);
@@ -32,12 +38,58 @@
     color: var(--gray);
 }
 
+.white-color {
+    color: white;
+}
+
+
+/* Background Colors */
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-color {
+    background-color: var(--primary-color-shade);
+}
+
+.bg-black-color {
+    background-color: var(--black);
+}
+
+.bg-gray-color {
+    background-color: var(--gray);
+}
+
+
+.bg-success-color {
+    background-color: var(--success);
+}
+
+.bg-danger-color {
+    background-color: var(--danger);
+}
+
+.bg-warning-color {
+    background-color: var(--warning);
+}
+
+.bg-info-color {
+    background-color: var(--info);
+}
+
+/* Light Background Colors */
+
 .bg-ligth-green-color {
     background-color: var(--light-green);
 }
 
 .bg-ligth-red-color {
     background-color: var(--light-red);
+}
+
+.bg-ligth-yellow-color {
+    background-color: var(--light-yellow);
 }
 
 .bg-ligth-blue-color {
@@ -197,6 +249,10 @@ h5,.h5 {
 
 .mb-1 {
     margin-bottom: 1rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
 }
 
 /* ||| Border Radius */

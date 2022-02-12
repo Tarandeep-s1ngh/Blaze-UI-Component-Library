@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blaze: Typography</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 
     <link href="/css/shared.css" rel="stylesheet">
-    <link href="/css/documentation.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+    <script src="https://kit.fontawesome.com/21124ac8ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -82,7 +83,7 @@
                         <a href="/Components/button/button.html">Button</a>
                     </li>
                     <li>
-                        <a href="">Card</a>
+                        <a href="/Components/card/card.html">Card</a>
                     </li>
                     <li>
                         <a href="/Components/image/image.html">Image</a>
@@ -122,22 +123,71 @@
             Main Content
             ------------------->
         <main class="main-content">
+            <!-----------------
+                Typography
+                ------------------->
             <h2 class="mb-1">Typography</h2>
-            <p><span class="primary-color semibold">COMING SOON</span></p> <br><br>
+            <p><span class="primary-color semibold">Blaze UI</span> uses Montserrat, as its default font. The typography includes global settings for headings, body text, font weight, and more. Various styles and sizes of text can be created according to their respective class names.
+            </p>
 
-            <h3 class="mb-1">Typography</h3>
-            <p>COMING SOON</p>
+            <!-----------------
+                Variations
+                ------------------->
 
-            <div class="code-snippet installation-code">
+            <div class="comp-showroom comp-showroom-text">
+                <div class="t3">Very Large Text</div>
+                <div class="t2">Large Text</div>
+                <div class="t1p5">Medium Text</div>
+                <div class="t1">Normal Text</div>
+                <div class="t0p75">Small Text</div>
+                <div class="t0p5">Very small text</div>
+                <br>
+                <h1 class="h1">Heading 1</h1>
+                <h2 class="h2">Heading 2</h2>
+                <h3 class="h3">Heading 3</h3>
+                <br>
+                <div class="gray-color">Gray Text</div>
+                <br>
+                <div class="t1p5 light">Light Weight</div>
+                <div class="t1p5 regular">Regular Weight</div>
+                <div class="t1p5 lightbold">Medium Weight</div>
+                <div class="t1p5 semibold">Semibold Weight</div>
+                <div class="t1p5 bold">Bold Weight</div>
+                <br>
+                <div class="text-center">Centered Text</div>
+            </div>
+
+            <div class="code-snippet">
                 <pre>
-                        <code class="language-html">
-                    &lt;link rel="stylesheet" href="https://blaze-ui.netlify.app/css/typography.css"&gt;
+                        <code class="language-html component-code">
+                    &lt;!-- Montserrat Font Family @credits - Google(https://fonts.google.com/) --&gt;
+
+                    &lt;!-- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,
+                    wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap'); --&gt;
+
+                    &lt;div class="t3"&gt;Very Large Text&lt;/div&gt;
+                    &lt;div class="t2"&gt;Large Text&lt;/div&gt;
+                    &lt;div class="t1p5"&gt;Medium Text&lt;/div&gt;
+                    &lt;div class="t1"&gt;Normal Text&lt;/div&gt;
+                    &lt;div class="t0p75"&gt;Small Text&lt;/div&gt;
+                    &lt;div class="t0p5"&gt;Very small text&lt;/div&gt;
+                    
+                    &lt;h1 class="h1"&gt;Heading 1&lt;/h1&gt;
+                    &lt;h2 class="h2"&gt;Heading 2&lt;/h2&gt;
+                    &lt;h3 class="h3"&gt;Heading 3&lt;/h3&gt;
+                    
+                    &lt;div class="gray-color"&gt;Gray Text&lt;/div&gt;
+                    
+                    &lt;div class="t1p5 light"&gt;Light Weight&lt;/div&gt;
+                    &lt;div class="t1p5 regular"&gt;Regular Weight&lt;/div&gt;
+                    &lt;div class="t1p5 lightbold"&gt;Medium Weight&lt;/div&gt;
+                    &lt;div class="t1p5 semibold"&gt;Semibold Weight&lt;/div&gt;
+                    &lt;div class="t1p5 bold"&gt;Bold Weight&lt;/div&gt;
+                    
+                    &lt;div class="text-center"&gt;Centered Text&lt;/div&gt;
                         </code>
                     </pre>
             </div>
-
-            <h3 class="mb-1">Typography</h3>
-            <p>COMING SOON</p>
 
             <!-----------------
                 Footer

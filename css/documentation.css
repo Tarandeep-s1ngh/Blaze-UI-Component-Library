@@ -122,9 +122,15 @@ body {
     padding: 1rem 2rem;
 }
 
+.comp-colors {
+    background-color: #353535ec;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
 .code-snippet{
     height: max-content;
-    margin-bottom: 3rem;
 }
 
 .installation-code{
@@ -177,4 +183,14 @@ footer {
     align-items: center;
     transition: all .2s ease-in-out;
     cursor: pointer;
+}
+
+/* Colors.css */
+
+.color-div {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.4rem;
 }
