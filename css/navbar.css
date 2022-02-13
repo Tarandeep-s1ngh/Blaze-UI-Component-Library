@@ -38,3 +38,9 @@
 .nav-btn .link .fa-twitter {
     font-size: 1.18rem;
 }
+
+@media screen and (max-width: 800px) {
+    .nav-btn .link {
+        padding: 0;
+    }
+}
