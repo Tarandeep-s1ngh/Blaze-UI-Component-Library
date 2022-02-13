@@ -1,7 +1,7 @@
 # [Blaze UI - A lightweight and modular component library](https://blaze-ui.netlify.app/index.html)
 
 <div align="center">Set your website ablaze with Blaze UI </div>
-
+<br />
 <div align="center">
 <img height="40" src="/assets/favicon.svg"/>
 <img height="160" src="/assets/hero-image.svg"/>
