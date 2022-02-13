@@ -1,14 +1,10 @@
-<div align="center">
-  <img src="/assets/favicon.svg" height="40" width="40" alt="Blaze UI logo"/>
-  
 # [Blaze UI - A lightweight and modular component library](https://blaze-ui.netlify.app/index.html)
 
 Set your website ablaze with Blaze UI
-</div>
 
 <div style="diplay:flex;" align="center">
 <img height="40" src="/assets/favicon.svg"/>
-<img height="80" src="/assets/hero-image.svg"/>
+<img height="160" src="/assets/hero-image.svg"/>
 <img height="40" src="/assets/favicon.svg"/>
 </div>
 
