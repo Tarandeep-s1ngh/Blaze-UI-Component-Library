@@ -85,7 +85,7 @@ Copy and paste the below code in the `head` tag of your html document and start 
 
 ### **What I learned**
 
-I have never wrote so much of CSS in my life before. Making this Component Library helped me get comfortable with CSS. I feel like I have grown so much throughout this journey that now I can literally make a mind map for any design I see online!  
+I have never written so much of CSS in my life before. Making this Component Library helped me get comfortable with CSS. I feel like I have grown so much throughout this journey that now I can literally make a mind map for any design I see online!  
 
 **My Takeaways:**
 1. Don’t take CSS as hit-&-trial, rather take it up logically. Understand why something is not working and other thing is. 🎯 
