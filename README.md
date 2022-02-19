@@ -14,12 +14,15 @@
 
   - [Installation Guide](#installation-guide)
   - [Documentation](#documentation)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
 
 - [My Journey](#my-journey)
   - [Tech Stack](#tech-stack)
   - [What I learned](#what-i-learned)
   - [Resources](#resources)
+
+- [Running this app Locally](#running-this-app-locally)
+- [Contributing to the project](#contributing-to-the-project)
 - [Developer](#developer)
 
 <br />
@@ -64,7 +67,7 @@ Copy and paste the below code in the `head` tag of your html document and start 
 - [Simplified Grid](https://blaze-ui.netlify.app/Components/grid/grid.html)
 - [Slider](https://blaze-ui.netlify.app/Components/slider/slider.html)
 
-### **Screenshot**
+### **Screenshots**
 
 ![blaze-ui-landing-page](https://user-images.githubusercontent.com/65854945/153757598-ba488098-03af-4e48-bc81-0a586b5d3df8.png)
 
@@ -75,7 +78,6 @@ Copy and paste the below code in the `head` tag of your html document and start 
 ![card](https://user-images.githubusercontent.com/65854945/153757746-bc409b5b-b6ff-4fe9-89a8-3a0b0e368cf3.png)
 
 ![button](https://user-images.githubusercontent.com/65854945/153757824-e63df4d9-61ab-43a2-8354-fbd07ee42d99.png)
-
 
 <br />
 
@@ -103,6 +105,31 @@ I have never written so much of CSS in my life before. Making this Component Lib
 - CSS3
 - Flexbox Layout
 - Grid Layout
+
+<br />
+
+## **Running this app Locally**
+
+1. Clone the repository by running this command in your terminal.
+
+```
+gh repo clone Tarandeep-s1ngh/Blaze-UI-Component-Library
+
+```
+2. A directory named "Blaze-UI-Component-Library" will be created on your machine.
+3. Go to the index.html and use the live server to run the project.
+
+## **Contributing to the project**
+
+1. Do the steps (1-2) exactly as above.
+2. Refer the **style-guide.css** and **reset.css** to get the idea what pattern is followed.
+3. Create a new branch from **dev** branch.
+4. Make the changes.
+5. Commit the Changes.
+6. Push the changes and open a pull request.
+7. Pull request will be reviewed by the maintainer and merged if found okay.
+
+*Note: Please describe the component/changes you have made in your pull request. It would be nice if you could attach a visual example for the same.*
 
 <br />
 
