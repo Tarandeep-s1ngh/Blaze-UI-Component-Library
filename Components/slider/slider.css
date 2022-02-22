@@ -7,3 +7,16 @@
     align-items: center;
     gap: 0.5rem;
 }
+
+input[type="range"] {
+    accent-color: var(--primary-color);
+    width: 20rem;
+    border-radius: 10px;
+    height: 7px;
+}
+
+/* input[type="range"]:hover {
+    box-shadow: -1px 1px 35px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 35px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 35px 3px rgba(0,0,0,0.75);
+} */
